@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My work</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900%7CSource+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c35cf5e216.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Zhenkun Li</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutme.html">About me</a></li>
+            <li><a href="mywork.html">My work</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <!-- My work -->
+    <section class="mywork" id="work">
+        <h1 class="section__title section__title--work">What I've done</h1>
+        <ul class="works">
+            <li class="works__item">
+                <h3>Course Project(MET CS673)</h3>
+                <p>
+                    The main work is based on the Django REST framework for back-end model building and programming of
+                    related functions.<br>
+                    In the process, using the postman platform to test the use of the project's API interface.<br>
+                </p>
+                <a class="works__item__link" href="https://github.com/CS673Spring/FitnessApp">Click here to see our
+                    codes</a>
+            </li>
+            <!--/work-->
+
+            <li class="works__item">
+                <h3>Chat Robot</h3>
+                <p>
+                    Created a chat robot that could be connected to Wechat (a popular instant message chat app in China)
+                    and made the weather and stock inquiry possible.<br>
+                    Using RASA_NLU and spaCy as data training, processing framework.<br> <br>
+                    <strong>Sample show:</strong><br> <br>
+                <div class="vid"><video width="212" height="448" controls>
+                        <source src="video/sample.mp4" type="video/mp4">
+                    </video></div><br>
+                <a class="works__item__link" href="https://github.com/lllzzzkkk-s/chatbot-stock-weather-">Click here to
+                    see my codes</a>
+                </p>
+            </li>
+            <!--/work-->
+        </ul>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p>
+            <em>Contact me: </em>
+            <a href="mailto:llzzkk@bu.edu" class="footer__link">llzzkk@bu.edu</a>
+        </p>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/Zhenkundev"><i
+                        class="fa-brands fa-github"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/yyaffdm/"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <script>myfunc0();</script>
+</body>
+
+</html>
