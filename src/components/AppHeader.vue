@@ -8,7 +8,7 @@
                 <li><a href="./home.html">Home</a></li>
                 <li><a href="./aboutme.html">About me</a></li>
                 <li><a href="./mywork.html">My work</a></li>
-                <li><a href="./1.html">Resume</a></li>
+                <li><a href="./resume.html">Resume</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
             <div class="burger" v-on:click="myfunc0">
