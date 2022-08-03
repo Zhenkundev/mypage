@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div v-on:load="myfunc">
         <nav>
             <div class="logo">
                 <h4>Zhenkun Li</h4>
@@ -42,6 +42,20 @@ export default {
             });
             //Burger animation
             burger.classList.toggle('toggle');
+        },
+        myfunc() {
+            // welcoming the visitor with an alert
+
+            alert("Hello!");
+
+            var person;
+
+            // prompting visitor for his / her name
+
+            person = prompt("Please enter your name", "Firstname Lastname");
+
+            alert("Welcome to my personal page, " + person + "!");
+
         }
     }
 }
